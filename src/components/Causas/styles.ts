@@ -19,7 +19,7 @@ export const CausasContent = styled(motion.div)`
   justify-content: center;
   align-items: center;
 
-  @media (max-width: 425px) {
+  @media (max-width: 500px) {
     flex-direction: column;
     width: 100%;
     height: inherit;
@@ -34,7 +34,7 @@ export const LeftContent = styled.main`
   display: flex;
   align-items: center;
 
-  @media (max-width: 425px) {
+  @media (max-width: 500px) {
     width: 100%;
     order: 1;
   }
@@ -52,7 +52,7 @@ export const RightContent = styled.main`
   flex-direction: column;
   justify-content: center;
 
-  @media (max-width: 425px) {
+  @media (max-width: 500px) {
     width: 100%;
   }
 

@@ -26,7 +26,7 @@ export const EquipeCards = styled.div`
   gap: 2rem;
   justify-items: center;
 
-  @media (max-width: 425px) {
+  @media (max-width: 500px) {
     grid-template-columns: repeat(1, minmax(300px, 1fr));
   }
 `;

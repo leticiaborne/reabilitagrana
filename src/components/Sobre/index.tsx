@@ -28,11 +28,10 @@ export const Sobre = () => {
         >
           <h1>Sobre Nós</h1>
           <p>
-            Bem-vindo ao Projeto Apex, uma iniciativa da Unoesc no curso de
-            Administração da 1ª fase. Nosso objetivo é promover a educação
-            financeira e o bem-estar econômico dos idosos, abordando o
-            endividamento e oferecendo orientação para uma gestão financeira
-            saudável.
+            Bem-vindo ao projeto da disciplina atividades práticas de extensão
+            APEX. Nosso objetivo é promover a educação financeira e o bem-estar
+            econômico dos idosos, abordando o endividamento e oferecendo
+            orientação para uma gestão financeira saudável.
           </p>
           <p>
             <strong>Nossa Missão:</strong> Empoderar idosos com conhecimento

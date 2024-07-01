@@ -19,7 +19,7 @@ export const InformacoesContent = styled(motion.div)`
   gap: 3rem;
   justify-items: center;
 
-  @media (max-width: 425px) {
+  @media (max-width: 500px) {
     grid-template-columns: repeat(1, minmax(300px, 1fr));
     width: 100%;
     height: inherit;

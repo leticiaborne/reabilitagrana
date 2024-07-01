@@ -19,7 +19,7 @@ export const ContatoContent = styled(motion.div)`
   justify-content: center;
   align-items: center;
 
-  @media (max-width: 425px) {
+  @media (max-width: 500px) {
     flex-direction: column;
     width: 100%;
     height: inherit;
@@ -35,7 +35,7 @@ export const LeftContent = styled.main`
   flex-direction: column;
   justify-content: center;
 
-  @media (max-width: 425px) {
+  @media (max-width: 500px) {
     width: 100%;
   }
 
@@ -43,7 +43,7 @@ export const LeftContent = styled.main`
     font-size: 2rem;
     font-weight: bold;
 
-    @media (max-width: 425px) {
+    @media (max-width: 500px) {
       font-size: 1.75rem;
     }
   }
@@ -107,7 +107,7 @@ export const RightContent = styled.main`
   align-items: center;
   justify-content: center;
 
-  @media (max-width: 425px) {
+  @media (max-width: 500px) {
     width: 100%;
   }
 

@@ -20,7 +20,7 @@ export const HeroContent = styled.div`
   align-items: center;
   height: calc(100vh - 80px);
 
-  @media (max-width: 425px) {
+  @media (max-width: 500px) {
     flex-direction: column;
     width: 100%;
     height: inherit;
@@ -36,7 +36,7 @@ export const LeftContent = styled(motion.div)`
   flex-direction: column;
   justify-content: center;
 
-  @media (max-width: 425px) {
+  @media (max-width: 500px) {
     width: 100%;
   }
 
@@ -44,7 +44,7 @@ export const LeftContent = styled(motion.div)`
     font-size: 3rem;
     font-weight: bold;
 
-    @media (max-width: 425px) {
+    @media (max-width: 500px) {
       font-size: 2rem;
     }
   }
@@ -57,7 +57,7 @@ export const LeftContent = styled(motion.div)`
 
     color: ${(props) => props.theme.gray};
 
-    @media (max-width: 425px) {
+    @media (max-width: 500px) {
       width: 100%;
       margin: 10px 0;
       font-size: 1rem;
@@ -101,7 +101,7 @@ export const RightContent = styled(motion.div)`
   display: flex;
   align-items: center;
 
-  @media (max-width: 425px) {
+  @media (max-width: 500px) {
     width: 100%;
   }
 
